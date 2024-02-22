@@ -1,0 +1,53 @@
+h1{
+	background: lightblue;
+	text-align: center;
+}
+body{
+	background-color: dfdfdf;
+}
+nav{
+	text-align: center;
+}
+header{
+	font: Arial;
+}
+h2{
+	text-align: center;
+}
+
+/* CSS for the fixed navigation bar with a light blue border */
+body {
+    margin: 0;
+    padding-top: 50px; /* Adjust based on the height of your nav bar to prevent page content from being hidden behind it */
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    border-bottom: 2px solid lightblue; /* Light blue border at the bottom */
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: adds a slight shadow for depth */
+    z-index: 1000; /* Ensure nav bar is above other content */
+}
+
+nav a {
+    text-decoration: none;
+    color: black; /* Text color */
+    padding: 0 15px;
+    line-height: 25px; /* Adjust the line height to vertically center the text */
+}
+
+/* Adjustments for spacing and alignment */
+.nav-container {
+    max-width: 1000px; /* Max width for the content within the nav bar */
+    margin: 0 auto; /* Center the navigation container */
+    display: flex;
+    justify-content: space-between; /* Adjust based on design preference */
+    align-items: center;
+}
+body{
+    background-color: lightgray;
+}
